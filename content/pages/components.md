@@ -20,7 +20,7 @@ section1: >-
 
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
 section2: '## You can use videos, images and text.'
-video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
+video: 'https://ucarecdn.com/de6b7be5-f985-4541-89b5-1c8ae6a1cc4d/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
 videoTitle: You can write some text here too!
 accordion:
