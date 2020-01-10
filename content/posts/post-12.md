@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Trees
+title: Leg exercises
 status: Published
 date: '2018-05-25'
 featuredImage: 'https://ucarecdn.com/52b27af8-262d-4e2c-9773-15125ab8a5b2/'
@@ -9,6 +9,8 @@ excerpt: >-
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Legs
 meta:
   description: test meta description
   title: test meta title

@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: River
+title: Upper body workout
 status: Published
 date: '2018-05-25'
 featuredImage: >-

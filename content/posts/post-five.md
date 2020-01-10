@@ -1,15 +1,16 @@
 ---
 template: SinglePost
-title: Swiming
+title: Work those glutes
 status: Published
 date: '2018-05-25'
-featuredImage: >-
-  https://ucarecdn.com/6a00645e-a07d-4c6c-8386-7e0f86bcff84/-/crop/1632x1853/0,596/-/preview/
+featuredImage: 'https://ucarecdn.com/c9da4474-15d0-4dcc-ac2a-1cdc7b62688a/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
   website is completed. You are currently reading text that is written in
   English, not any other language.
+categories:
+  - category: Glutes
 meta:
   description: test meta description
   title: test meta title
