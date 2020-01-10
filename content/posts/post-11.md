@@ -1,9 +1,9 @@
 ---
 template: SinglePost
-title: Yellow Van
+title: Develop your core strength
 status: Published
 date: '2018-05-25'
-featuredImage: 'https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/'
+featuredImage: 'https://ucarecdn.com/86c66216-7dbe-4f9b-8e23-3104505ddd75/'
 excerpt: >-
   This is placeholder text that our web designers put here to make sure words
   appear properly on your website. This text is going to be replaced once the
