@@ -8,8 +8,8 @@ address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
 email: example@example.com
 locations:
-  - lat: '54.3266523'
-    lng: '-2.7760661'
+  - lat: '54.326790'
+    lng: '-2.747580'
     mapLink: ''
 meta:
   description: This is a meta description.
