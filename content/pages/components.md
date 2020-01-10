@@ -1,11 +1,9 @@
 ---
 template: ComponentsPage
 slug: components
-title: Glute exercises
-featuredImage: 'https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/'
-subtitle: >-
-  This page contains information about glute exercises.  Or could be something
-  else!
+title: Personal Training Services
+featuredImage: 'https://ucarecdn.com/10c63063-1e9a-42a7-a90f-a33701f79eb6/'
+subtitle: Write something here about your personal training services.
 section1: >-
   ## This is a section title
 
@@ -23,23 +21,23 @@ section1: >-
   allow="autoplay; encrypted-media" allowfullscreen></iframe>
 section2: '## You can use videos, images and text.'
 video: 'https://ucarecdn.com/e6979298-66d6-4245-b496-6e5a5d507135/'
-videoPoster: 'https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/'
-videoTitle: 'Also background videos, with poster image & title overlay.'
+videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
+videoTitle: You can write some text here too!
 accordion:
   - description: reveals more text here
     title: Something interesting goes here
   - description: reveals more text here
     title: Something interesting goes here
 gallery:
-  - alt: yellow rope image
-    image: 'https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/'
-    title: Yellow Rope
-  - alt: umbrellas
-    image: 'https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/'
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: 'https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/'
-    title: Yellow Ice Cream
+  - alt: alt1
+    image: 'https://ucarecdn.com/2ee27105-39bc-47e4-b350-ba280b3958dc/'
+    title: ''
+  - alt: alt2
+    image: 'https://ucarecdn.com/a37cd72c-657a-4195-baea-ff0a713c5762/'
+    title: ''
+  - alt: alt3
+    image: 'https://ucarecdn.com/41c04cf7-2b80-447c-9cea-ddae548b9204/'
+    title: ''
 meta:
   description: This is a meta description.
   title: Components Page
