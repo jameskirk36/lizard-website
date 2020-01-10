@@ -1,6 +1,6 @@
 ---
 template: SinglePost
-title: Swiming
+title: Work those glutes
 status: Published
 date: '2018-05-25'
 featuredImage: >-
