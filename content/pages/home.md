@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: Liz Kirk Personal Training
-featuredImage: 'https://ucarecdn.com/1e0f6679-0f74-4cf6-8149-5921e3a57673/'
+featuredImage: 'https://ucarecdn.com/3b709fba-a224-4283-af78-323b265b21ec/'
 subtitle: ' Welcome to my website something short and interesting here'
 meta:
   description: Liz Kirk Personal Training
