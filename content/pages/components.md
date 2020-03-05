@@ -4,7 +4,9 @@ slug: components
 title: Personal Training Services
 featuredImage: >-
   https://ucarecdn.com/10c63063-1e9a-42a7-a90f-a33701f79eb6/-/crop/768x655/0,176/-/preview/
-subtitle: Write something here about your personal training services.
+subtitle: >-
+  I offer one to one coaching or small group coaching for strength and
+  conditioning and fat loss
 section1: >-
   ## This is a section title
 
