@@ -8,7 +8,7 @@ import './InstagramFeed.css'
 
 export default class InstagramFeed extends Component {
   static defaultProps = {
-    accessToken: `${process.env.INSTAGRAM_API_TOKEN}`,
+    accessToken: `${process.env.GATSBY_INSTAGRAM_API_TOKEN}`,
     count: 20
   }
 
