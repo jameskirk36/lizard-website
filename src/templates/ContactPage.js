@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
-import GoogleMap from '../components/GoogleMap'
+import OpenStreetMap from '../components/OpenStreetMap'
 import Layout from '../components/Layout'
 import './ContactPage.css'
 
@@ -62,7 +62,13 @@ export const ContactPageTemplate = ({
       </div>
     </section>
 
-    <GoogleMap locations={locations} />
+    {typeof window !== 'undefined' &&
+        <OpenStreetMap
+          position={[54.3155, -2.7386]}
+          zoom={11}
+          markerText={"This is where i'm based"}
+        />
+    }
   </main>
 )
 

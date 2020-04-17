@@ -134,6 +134,12 @@ module.exports = {
         enableIdentityWidget: true
       }
     },
+    {
+      resolve: 'gatsby-plugin-react-leaflet',
+      options: {
+        linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
+      }
+    },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
