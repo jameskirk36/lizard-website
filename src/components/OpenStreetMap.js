@@ -33,7 +33,6 @@ class OpenStreetMap extends React.Component {
           closePopupOnClick={false} 
           dragging={false}
           zoomSnap={false} 
-          zoomDelta={false} 
           trackResize={false}
           touchZoom={false}
           scrollWheelZoom={false}>

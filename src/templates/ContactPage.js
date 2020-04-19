@@ -62,7 +62,7 @@ export const ContactPageTemplate = ({
     {typeof window !== 'undefined' &&
         <OpenStreetMap
           position={[54.3155, -2.7386]}
-          zoom={11}
+          zoom={12}
           markerText={address}
         />
     }
