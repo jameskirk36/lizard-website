@@ -7,6 +7,8 @@ import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
 import OpenStreetMap from '../components/OpenStreetMap'
 import Layout from '../components/Layout'
+
+import './font-awesome-4.7.0.min.css'
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
@@ -30,11 +32,16 @@ export const ContactPageTemplate = ({
       <div className="container Contact--Section1--Container">
         <div>
           <Content source={body} />
+            
+          <a href="https://www.facebook.com/lizkirkPT" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/lizkirk_pt/" class="fa fa-instagram"></a>
+          <a href="https://www.linkedin.com/in/elizabeth-kirk-422b861a4" class="fa fa-linkedin"></a>
+
           <div className="Contact--Details">
             {address && (
               <a
                 className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
+                href={`https://www.google.com/maps/search/${encodeURI(
                   address
                 )}`}
                 target="_blank"
@@ -43,22 +50,12 @@ export const ContactPageTemplate = ({
                 <MapPin /> {address}
               </a>
             )}
-            {phone && (
-              <a className="Contact--Details--Item" href={`tel:${phone}`}>
-                <Smartphone /> {phone}
-              </a>
-            )}
-            {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
-                <Mail /> {email}
-              </a>
-            )}
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <FormSimpleAjax name="Simple Form Ajax" />
-        </div>
+        </div> */}
       </div>
     </section>
 
@@ -66,7 +63,7 @@ export const ContactPageTemplate = ({
         <OpenStreetMap
           position={[54.3155, -2.7386]}
           zoom={11}
-          markerText={"This is where i'm based"}
+          markerText={address}
         />
     }
   </main>
