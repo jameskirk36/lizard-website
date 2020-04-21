@@ -37,8 +37,8 @@ class OpenStreetMap extends React.Component {
           touchZoom={false}
           scrollWheelZoom={false}>
           <TileLayer
-            url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
-            attribution="&copy; <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+            url="https://{s}.tile.osm.org/{z}/{x}/{y}.png"
+            attribution="&copy; <a href=&quot;https://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
           />
           {this.props.markerText !== "" &&
           <Marker position={this.props.position}>
