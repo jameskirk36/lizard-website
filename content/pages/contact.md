@@ -1,10 +1,10 @@
 ---
 template: ContactPage
 slug: contact
-title: Contact Page
+title: Contact me
 featuredImage: 'https://ucarecdn.com/91d24e52-1388-4ae3-8bce-007f6d4f4fdc/'
-subtitle: This is the contact page subtitle with some text
-address: '404 James St, Burleigh Heads QLD 4220'
+subtitle: Please get in touch to find out how we can work together
+address: 'Ulverston Leisure Centre, Priory Road, Ulverston LA12 9HT'
 phone: 0987 123 456
 email: example@example.com
 locations:
@@ -15,6 +15,4 @@ meta:
   description: This is a meta description.
   title: Contact Page
 ---
-# Example contact form
-
-You could have a contact form for people to inquire about your services
+Follow me or get in touch on social media
