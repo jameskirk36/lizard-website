@@ -13,6 +13,8 @@ meta:
   description: Liz Kirk Personal Training
   title: Liz Kirk Personal Training
 ---
-Hi! I'm Liz - I'm a Personal Trainer who can offer you help and support towards your fitness goals. I'm here to help you achieve, enjoy and maintain your best possible health and fitness
+Hi! I'm Liz - I'm a Personal Trainer who can offer you help and support towards your reaching your fitness goals. I'm here to help you achieve,  maintain and most of all enjoy the journey to your best possible health and fitness.
 
-Based at Ulverston Leisure Centre I offer one to one coaching, small group training, and bespoke nutrition advice and exercise programs to help you achieve and enjoy a healthy lifestyle.
+Based at Ulverston Leisure Centre I offer one to one or small group training packages, both of which include bespoke nutrition plans, training programs and ongoing support outside of the training sessions to ensure you are on track to reach your goals. 
+
+Your fitness journey should be an enjoyable journey and I am here to guide you along it.
