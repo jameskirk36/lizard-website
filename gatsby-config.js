@@ -140,6 +140,20 @@ module.exports = {
         linkStyles: true // (default: true) Enable/disable loading stylesheets via CDN
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // The property ID; the tracking code won't be generated without it
+        trackingId: `${process.env.GATSBY_GA_ID}`,
+        // Defines where to place the tracking script - `true` in the head and `false` in the body
+        head: false,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        defer: false,
+      },
+    },
     'gatsby-plugin-netlify' // make sure to keep it last in the array
   ]
 }
