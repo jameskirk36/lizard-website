@@ -3,12 +3,7 @@ template: HomePage
 slug: ''
 title: Liz Kirk Personal Training
 featuredImage: 'https://ucarecdn.com/3b709fba-a224-4283-af78-323b265b21ec/'
-subtitle: |-
-
-
-
-
-  Bespoke Health and Fitness Coaching and Nutrition Advice
+subtitle: Become the best you can be.
 meta:
   description: Liz Kirk Personal Training
   title: Liz Kirk Personal Training
