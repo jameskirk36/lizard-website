@@ -5,9 +5,9 @@ title: Personal Training Services
 featuredImage: >-
   https://ucarecdn.com/10c63063-1e9a-42a7-a90f-a33701f79eb6/-/crop/768x655/0,176/-/preview/
 subtitle: >-
-  Training packages to improve your health, focusing on building strength,
-  creating positive nutrition habits, increasing confidence and measuring
-  progress
+  Customised training packages to improve your health, focusing on building
+  strength, creating positive nutrition habits, increasing confidence and
+  measuring progress.
 section1: >-
   ## What does training with me involve?
 
