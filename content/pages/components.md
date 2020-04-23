@@ -38,10 +38,10 @@ section1: >-
 
 
   \-
-section2: '## You can use videos, images and text.'
+section2: '## Video Tutorials'
 video: 'https://ucarecdn.com/de6b7be5-f985-4541-89b5-1c8ae6a1cc4d/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
-videoTitle: You can write some text here too!
+videoTitle: Learn how to do a press up
 accordion:
   - description: reveals more text here
     title: Something interesting goes here
