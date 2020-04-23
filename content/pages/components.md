@@ -6,18 +6,22 @@ featuredImage: >-
   https://ucarecdn.com/10c63063-1e9a-42a7-a90f-a33701f79eb6/-/crop/768x655/0,176/-/preview/
 subtitle: >-
   Training packages to improve your health, focusing on building strength,
-  creatiing positive nutrition habits, increasing confidence and measuring
+  creating positive nutrition habits, increasing confidence and measuring
   progress
 section1: >-
   ## What does training with me involve?
 
 
   I offer a free consultation where we can have a talk about what your health
-  and fitness goals are, this will include a lifestlye assessment and body
-  metrics. 
+  and fitness goals are, this will include a lifestyle assessment and body
+  metric measurements.
 
 
   My packages include:
+
+
+  \*\*\*\*Due to the current closure of gyms I am offering AT HOME training
+  plans, modified to your equipment options and adaptable over time\*\*\*\*
 
 
   * Weekly face to face personal training sessions in the gym (1 or 2 sessions
@@ -28,7 +32,12 @@ section1: >-
   * A training plan for you to follow outside of our gym sessions either at home
   or in the gym depending on your needs
 
-  * I also offer full support at any time via whatsapp/email/phonecalls
+  * I also offer full support at any time via Whatsapp/email/phonecalls
+
+
+  \*\*\*\* I also offer AT HOME training programs, for you to follow, these can
+  be adapted to the equipment you have available to you & includes a nutrition
+  plan\*\*\*\*
 
 
   \-
