@@ -35,9 +35,7 @@ section1: >-
   * I also offer full support at any time via Whatsapp/email/phonecalls
 
 
-  \*\*\*\* I also offer AT HOME training programs, for you to follow, these can
-  be adapted to the equipment you have available to you & includes a nutrition
-  plan\*\*\*\*
+  Please get in touch to find out more
 
 
   \-
