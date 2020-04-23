@@ -8,20 +8,29 @@ subtitle: >-
   I offer one to one coaching or small group coaching for strength and
   conditioning and fat loss
 section1: >-
-  ## This is a section title
+  ## What does training with me involve?
 
 
-  You can write some general stuff here. Could be text, images or videos like
-  this: 
+  I offer a free consultation where we can have a talk about what your health
+  and fitness goals are, this will include a lifestlye assessment and body
+  metrics. 
 
 
+  My packages include:
 
 
-  <iframe width="560" height="315"
+  * Weekly face to face personal training sessions in the gym (1 or 2 sessions
+  per week)
 
-  src="https://www.youtube.com/embed/Js00yn142ic" frameborder="0"
+  * Bespoke nutrition plan with recipe ideas
 
-  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  * A training plan for you to follow outside of our gym sessions either at home
+  or in the gym depending on your needs
+
+  * Support at any time via whatsapp/email/phonecalls
+
+
+  \-
 section2: '## You can use videos, images and text.'
 video: 'https://ucarecdn.com/de6b7be5-f985-4541-89b5-1c8ae6a1cc4d/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
