@@ -27,7 +27,7 @@ section1: >-
   * A training plan for you to follow outside of our gym sessions either at home
   or in the gym depending on your needs
 
-  * Support at any time via whatsapp/email/phonecalls
+  * I also offer full support at any time via whatsapp/email/phonecalls
 
 
   \-
