@@ -20,8 +20,9 @@ section1: >-
   My packages include:
 
 
-  \*\*\*\*Due to the current closure of gyms I am offering AT HOME training
-  plans, modified to your equipment options and adaptable over time\*\*\*\*
+  \*\*\*\*Due to the current closure of gyms I am offering VIDEO CONSULTATIONS &
+  AT HOME training plans, modified to your equipment options and adaptable over
+  time\*\*\*\*
 
 
   * Weekly face to face personal training sessions in the gym (1 or 2 sessions
