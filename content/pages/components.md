@@ -12,9 +12,8 @@ section1: >-
   ## What does training with me involve?
 
 
-  I offer a free consultation where we can have a talk about what your health
-  and fitness goals are, this will include a lifestyle assessment and body
-  metric measurements.
+  I offer a free consultation to discuss your health and fitness goals, this
+  will include a lifestyle assessment and body metric measurements.
 
 
   My packages include:
