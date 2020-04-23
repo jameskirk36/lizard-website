@@ -8,8 +8,8 @@ address: 'Ulverston Leisure Centre, Priory Road, Ulverston LA12 9HT'
 phone: 0987 123 456
 email: example@example.com
 locations:
-  - lat: '54.326790'
-    lng: '-2.747580'
+  - lat: '54.18562'
+    lng: '-3.08672'
     mapLink: ''
 meta:
   description: This is a meta description.
