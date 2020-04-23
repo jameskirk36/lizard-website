@@ -1,9 +1,8 @@
 import React from 'react'
-import { MapPin, Smartphone, Mail } from 'react-feather'
+import { MapPin } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
 import OpenStreetMap from '../components/OpenStreetMap'
 import Layout from '../components/Layout'
@@ -61,7 +60,7 @@ export const ContactPageTemplate = ({
 
     {typeof window !== 'undefined' &&
         <OpenStreetMap
-          position={[54.3155, -2.7386]}
+          position={locations[0]}
           zoom={12}
           markerText={address}
         />

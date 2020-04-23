@@ -6,17 +6,6 @@ import './OpenStreetMap.css'
 
 class OpenStreetMap extends React.Component {
 
-  static propTypes = {
-    /** Latitude and Longitude of the map centre in an array, eg [51, -1] **/
-    position: PropTypes.array,
-
-    /** Initial zoom level for the map (default 13) **/
-    zoom: PropTypes.number,
-
-    /** If set, will display a marker, which when clicked will display this text **/
-    markerText: PropTypes.string
-  }
-
   static defaultProps = {
     position: [51, -1],
     zoom: 13,
@@ -27,7 +16,7 @@ class OpenStreetMap extends React.Component {
 
       return (
         <Map 
-          center={this.props.position} 
+          center={[this.props.position.lat, this.props.position.lng]} 
           zoom={this.props.zoom}
           doubleClickZoom={false} 
           closePopupOnClick={false} 
