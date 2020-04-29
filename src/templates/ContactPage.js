@@ -2,6 +2,7 @@ import React from 'react'
 import { MapPin } from 'react-feather'
 import { graphql } from 'gatsby'
 
+import FormSimpleAjax from '../components/FormSimpleAjax'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import OpenStreetMap from '../components/OpenStreetMap'
@@ -35,7 +36,7 @@ export const ContactPageTemplate = ({
           <a href="https://www.facebook.com/lizkirkPT" class="fa fa-facebook"></a>
           <a href="https://www.instagram.com/lizkirk_pt/" class="fa fa-instagram"></a>
           <a href="https://www.linkedin.com/in/elizabeth-kirk-422b861a4" class="fa fa-linkedin"></a>
-
+          <FormSimpleAjax name="Simple Form Ajax" />
           <div className="Contact--Details">
             {address && (
               <a
@@ -51,10 +52,6 @@ export const ContactPageTemplate = ({
             )}
           </div>
         </div>
-
-        {/* <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
-        </div> */}
       </div>
     </section>
 
