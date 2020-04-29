@@ -9,11 +9,13 @@ export default ({
 }) => (
     <form 
         method="POST"
-        data-netlify-recaptcha="true"
-        data-netlify="true"
+        netlify-recaptcha="true"
+        netlify="true"
+        netlify-honeypot="not-today"
         className='Form'
         name={name}>
-    <input type='hidden' name='form-name' value={name} />
+    <input name='form-name' value={name} hidden />
+    <input name="not-today" hidden />
         <div className="Form--Group">
             <label className="Form--Label">
                 <input
@@ -65,7 +67,7 @@ export default ({
         />
         <span>Get new updates via email</span>
         </label>
-    <div data-netlify-recaptcha="true"></div>
+    <div netlify-recaptcha="true"></div>
     <input
         className="Button Form--SubmitButton"
         type="submit"
