@@ -12,9 +12,9 @@ section1: >-
   ## What does training with me involve?
 
 
-  I offer a free consultation (via skype or in person) to discuss your health
-  and fitness goals, this will include a lifestyle assessment and body metric
-  measurements.
+  I offer a free consultation (currently via zoom) to discuss your health and
+  fitness goals, this will include a lifestyle assessment and body metric
+  measurements
 
 
   My packages include:
