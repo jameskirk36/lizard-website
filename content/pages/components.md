@@ -44,11 +44,7 @@ section2: '## Video Tutorials'
 video: 'https://ucarecdn.com/de6b7be5-f985-4541-89b5-1c8ae6a1cc4d/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
 videoTitle: Learn how to do a press up
-accordion:
-  - description: reveals more text here
-    title: Something interesting goes here
-  - description: reveals more text here
-    title: Something interesting goes here
+accordion: []
 gallery:
   - alt: alt1
     image: 'https://ucarecdn.com/2ee27105-39bc-47e4-b350-ba280b3958dc/'
@@ -60,7 +56,7 @@ gallery:
     image: 'https://ucarecdn.com/41c04cf7-2b80-447c-9cea-ddae548b9204/'
     title: ''
 meta:
-  description: This is a meta description.
+  description: ''
   title: Components Page
 ---
 
