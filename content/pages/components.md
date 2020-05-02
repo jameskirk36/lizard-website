@@ -1,7 +1,7 @@
 ---
 template: ComponentsPage
 slug: components
-title: Personal Training Services
+title: Personal Training Packages
 featuredImage: >-
   https://ucarecdn.com/10c63063-1e9a-42a7-a90f-a33701f79eb6/-/crop/768x655/0,176/-/preview/
 subtitle: >-
