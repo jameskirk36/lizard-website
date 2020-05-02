@@ -21,8 +21,8 @@ section1: >-
 
 
   \*\*\*\*Due to the current closure of gyms I am offering VIDEO CONSULTATIONS &
-  AT HOME training plans, modified to your equipment options and adaptable over
-  time\*\*\*\*
+  AT HOME training plans, modified to your equipment options and progressive
+  over time\*\*\*\*
 
 
   * Weekly face to face personal training sessions in the gym (1 or 2 sessions
