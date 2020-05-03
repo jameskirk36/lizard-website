@@ -13,8 +13,7 @@ section1: >-
 
 
   I offer a free consultation (currently via zoom) to discuss your health and
-  fitness goals, this will include a lifestyle assessment and body metric
-  measurements
+  fitness goals.
 
 
   My packages include:
@@ -25,13 +24,12 @@ section1: >-
   over time\*\*\*\*
 
 
-  * Weekly face to face personal training sessions in the gym (1 or 2 sessions
+  * Weekly online personal training sessions (via Zoom or Skype -1 or 2 sessions
   per week)
 
   * Bespoke nutrition plan with recipe ideas
 
-  * A training plan for you to follow outside of our gym sessions either at home
-  or in the gym depending on your needs
+  * A training plan for you to follow alongside our sessions
 
   * I also offer full support at any time via Whatsapp/email/phonecalls
 
