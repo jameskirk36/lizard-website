@@ -15,4 +15,4 @@ meta:
   description: This is a meta description.
   title: Contact Page
 ---
-Follow me or get in touch on social media
+Follow me on social media and contact me to find out more
