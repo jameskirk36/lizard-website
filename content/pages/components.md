@@ -16,9 +16,6 @@ section1: >-
   fitness goals.
 
 
-  My packages include:
-
-
   \*\*\*\*Due to the current closure of gyms I am offering VIDEO CONSULTATIONS &
   AT HOME training plans, modified to your equipment options and progressive
   over time\*\*\*\*
@@ -34,7 +31,7 @@ section1: >-
   * I also offer full support at any time via Whatsapp/email/phonecalls
 
 
-  Please get in touch to find out more
+  Please get in touch to find out more about my packages and prices
 
 
   \-
