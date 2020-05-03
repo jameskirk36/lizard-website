@@ -12,8 +12,8 @@ section1: >-
   ## What does training with me involve?
 
 
-  I offer a free consultation (currently via zoom) to discuss your health and
-  fitness goals.
+  I offer a free consultation (currently via zoom/video call) to discuss your
+  health and fitness goals.
 
 
   \*\*\*\*Due to the current closure of gyms I am offering VIDEO CONSULTATIONS &
