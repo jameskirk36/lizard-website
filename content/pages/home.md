@@ -10,7 +10,7 @@ meta:
 ---
 Hi! I'm Liz - I'm a Personal Trainer and I'm here to help you focus on improving your health and fitness and most importantly of all, enjoy the journey.
 
-Based at Ulverston Leisure Centre I offer one to one or small group training packages, both of which include bespoke nutrition plans, meal ideas, varied training programs and ongoing support outside of the training sessions to ensure you are on track to reach your goals. 
+Based in the Lake District I offer one to one or small group training packages, both of which include bespoke nutrition plans, meal ideas, varied training programs and ongoing support outside of the training sessions to ensure you are on track to reach your goals. 
 
 A little bit about me...........
 
