@@ -57,6 +57,6 @@ gallery:
     title: ''
 meta:
   description: ''
-  title: Components Page
+  title: ''
 ---
 
