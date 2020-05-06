@@ -31,7 +31,7 @@ section1: >-
   * I also offer full support at any time via Whatsapp/email/phonecalls
 
 
-  Please get in touch to find out more about my packages and prices
+  Please get in touch to find out more about my packages and prices!
 
 
   \-
