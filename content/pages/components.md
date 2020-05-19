@@ -40,7 +40,8 @@ section1: >-
   * Full support at any time via Whatsapp/email/phonecalls
 
 
-  Please get in touch to find out more about my packages and prices.
+  Please get in touch to find out more about my packages and prices and book a
+  FREE consultation 
 
 
 
