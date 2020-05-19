@@ -22,8 +22,8 @@ section1: >-
 
   * Initial consultation via phone/Zoom/Video call - \*\*\*FREE\**
 
-  * **Home training plan** - personalised for the equipment you have availableat
-  your home and your goals
+  * **Home training plan** - personalised for the equipment you have available
+  at your home and your goals
 
   * **One to one outdoor coaching** - in an open public space with social
   distancing and regular cleaning of all equipment
