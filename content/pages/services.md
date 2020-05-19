@@ -66,6 +66,8 @@ gallery:
   - alt: alt3
     image: 'https://ucarecdn.com/41c04cf7-2b80-447c-9cea-ddae548b9204/'
     title: ''
+  - alt: test
+    image: 'https://ucarecdn.com/78cefd9f-a23c-466b-a89f-aad3ea4fbebb/'
 meta:
   description: ''
   title: ''
