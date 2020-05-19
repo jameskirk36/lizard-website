@@ -16,19 +16,24 @@ section1: >-
   health and fitness goals.
 
 
-  \*\*\*\*Due to the current closure of gyms I am offering VIDEO CONSULTATIONS &
-  AT HOME training plans, modified to your equipment options and progressive
-  over time\*\*\*\*
+  \*\*\*\*Due to the current closure of gyms I am offer the following
+  options:\*\**
 
 
-  * Weekly online personal training sessions (via Zoom or Skype -1 or 2 sessions
-  per week)
+  * Initial consultation via phone/Zoom/Video call
+
+  * Home training plan - personalised for the equipment you have available and
+  your goals
+
+  * One to one coaching outdoors in a open public space with social distancing
+
+   Whether you choose an at home training program or a one to one outdoors training program I will also include:
 
   * Bespoke nutrition plan with recipe ideas
 
-  * A training plan for you to follow alongside our sessions
+  * A training/lifestyle plan for you to follow alongside our sessions
 
-  * I also offer full support at any time via Whatsapp/email/phonecalls
+  * full support at any time via Whatsapp/email/phonecalls
 
 
   Please get in touch to find out more about my packages and prices!
