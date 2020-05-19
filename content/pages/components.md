@@ -16,27 +16,37 @@ section1: >-
   health and fitness goals.
 
 
-  \*\*\*\*Due to the current closure of gyms I am offer the following
-  options:\*\**
+  \*\*\* Due to the current closure of gyms I am currently offer the following
+  options: \*\*\*
 
 
-  * Initial consultation via phone/Zoom/Video call
+  * Initial consultation via phone/Zoom/Video call - \*\*\*FREE\**
 
-  * Home training plan - personalised for the equipment you have available and
-  your goals
+  * **Home training plan** - personalised for the equipment you have availableat
+  your home and your goals
 
-  * One to one coaching outdoors in a open public space with social distancing
+  * **One to one outdoor coaching** - in an open public space with social
+  distancing and regular cleaning of all equipment
 
-   Whether you choose an at home training program or a one to one outdoors training program I will also include:
+
+  Whether you choose an at home training program or a one to one outdoors
+  training program I will also include:
+
 
   * Bespoke nutrition plan with recipe ideas
 
-  * A training/lifestyle plan for you to follow alongside our sessions
+  * A training & lifestyle plan for you to follow alongside our sessions
 
-  * full support at any time via Whatsapp/email/phonecalls
+  * Full support at any time via Whatsapp/email/phonecalls
 
 
-  Please get in touch to find out more about my packages and prices!
+  Please get in touch to find out more about my packages and prices.
+
+
+
+
+
+
 
 
   \-
