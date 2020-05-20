@@ -16,8 +16,8 @@ section1: >-
   health and fitness goals.
 
 
-  \*\*\* Due to the current closure of gyms I am currently offer the following
-  options: \*\*\*
+  \*\*\* Due to the current closure of gyms I am currently offering the
+  following options: \*\*\*
 
 
   * Initial consultation via phone/Zoom/Video call - \*\*\*FREE\**
@@ -42,12 +42,6 @@ section1: >-
 
   Please get in touch to find out more about my packages and prices and book a
   FREE consultation 
-
-
-
-
-
-
 
 
   \-
