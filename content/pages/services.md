@@ -46,7 +46,7 @@ section1: >-
 
   \-
 section2: '## Video Tutorials'
-video: 'https://ucarecdn.com/de6b7be5-f985-4541-89b5-1c8ae6a1cc4d/'
+video: 'https://ucarecdn.com/35bddecf-789e-4dbe-9cea-7abf93b3e0f3/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
 videoTitle: Learn how to do a press up
 accordion: []
