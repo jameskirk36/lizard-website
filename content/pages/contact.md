@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact me
-featuredImage: 'https://ucarecdn.com/91d24e52-1388-4ae3-8bce-007f6d4f4fdc/'
+featuredImage: 'https://ucarecdn.com/7ee76957-7af8-448d-a21c-152ede6a8d5e/'
 subtitle: Please direct message me on social media or use the contact form below
 address: 'Ulverston Leisure Centre, Priory Road, Ulverston LA12 9HT'
 phone: 0987 123 456
