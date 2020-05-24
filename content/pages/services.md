@@ -3,7 +3,7 @@ template: ServicesPage
 slug: services
 title: Personal Training Packages
 featuredImage: >-
-  https://ucarecdn.com/d7a4c2be-0d29-43ee-b021-5ff5cb273b91/-/crop/766x278/0,0/-/preview/
+  https://ucarecdn.com/b350b07c-66cd-4cf4-9c6b-f2f35c1e953a/-/crop/1002x393/78,378/-/preview/-/grayscale/
 subtitle: >-
   Customised training packages to improve your health, focusing on building
   strength, creating positive nutrition habits, increasing confidence and
