@@ -52,7 +52,7 @@ videoTitle: Learn how to do a press up
 accordion: []
 gallery:
   - alt: alt1
-    image: 'https://ucarecdn.com/2ee27105-39bc-47e4-b350-ba280b3958dc/'
+    image: 'https://ucarecdn.com/959d32df-9766-42b5-a20f-63e9a815fb91/'
     title: ''
   - alt: alt2
     image: 'https://ucarecdn.com/8a178563-3996-4656-90be-c07b00f0d64b/'
