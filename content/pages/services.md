@@ -12,15 +12,13 @@ section1: >-
   ## What does training with me involve?
 
 
-  I offer a free consultation (currently via zoom/video call) to discuss your
-  health and fitness goals.
+  I offer a FREE initial consultation (currently via zoom/video call) to discuss
+  your health and fitness goals.
 
 
   \*\*\* Due to the current closure of gyms I am currently offering the
   following options: \*\*\*
 
-
-  * Initial consultation via phone/Zoom/Video call - \*\*\*FREE\**
 
   * **Home training plan** - personalised for the equipment you have available
   at your home and your goals
