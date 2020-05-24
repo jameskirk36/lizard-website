@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: .
-featuredImage: 'https://ucarecdn.com/10602afd-d3dc-473d-aa28-60a797357c51/'
+featuredImage: 'https://ucarecdn.com/865dee22-5d4a-4258-a872-f2dd2ee5dacb/'
 subtitle: .
 address: 'Ulverston Leisure Centre, Priory Road, Ulverston LA12 9HT'
 phone: 0987 123 456
