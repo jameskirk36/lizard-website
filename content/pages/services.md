@@ -45,7 +45,9 @@ section1: >-
 section2: '## Video Tutorials'
 video: 'https://ucarecdn.com/35bddecf-789e-4dbe-9cea-7abf93b3e0f3/'
 videoPoster: 'https://ucarecdn.com/d3d4ecf2-5c61-48ec-a390-b7af8075afd6/'
-videoTitle: Learn how to do a press up - click to visit my YouTube channel
+videoTitle: >-
+  Learn how to do a press up - please visit my YouTube channel for instructional
+  videos!
 accordion: []
 gallery:
   - alt: alt1
