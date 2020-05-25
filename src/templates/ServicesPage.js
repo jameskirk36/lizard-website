@@ -37,7 +37,6 @@ export const ServicesPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
     </section>
