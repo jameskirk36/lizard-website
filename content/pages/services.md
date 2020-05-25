@@ -56,7 +56,4 @@ gallery:
 meta:
   description: ""
   title: ""
-videoPoster: https://ucarecdn.com/b6b2de09-e2e5-4b5d-8353-0dcd4944d63a/-/preview/-/grayscale/
-video: https://ucarecdn.com/61be7883-cb53-49e3-84c2-f74c36916e50/-/preview/-/grayscale/
-videoTitle: .nan
 ---
