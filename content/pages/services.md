@@ -70,6 +70,9 @@ gallery:
     image: >-
       https://ucarecdn.com/41c04cf7-2b80-447c-9cea-ddae548b9204/-/preview/-/grayscale/
     title: ''
+  - alt: alt4
+    image: >-
+      https://ucarecdn.com/9e0e18bc-6c19-4413-9d3a-77cce9e02cbb/-/preview/-/grayscale/
 meta:
   description: ''
   title: ''
