@@ -31,7 +31,7 @@ section1: >-
   training program I will also include:
 
 
-  * Bespoke nutrition plan with recipe ideas
+  * Personalised nutrition advice with recipe ideas
 
   * A training & lifestyle plan for you to follow alongside our sessions
 
