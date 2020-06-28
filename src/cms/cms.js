@@ -9,6 +9,8 @@ import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
+import { NutritionIndexTemplate } from '../templates/NutritionIndex'
+import { NutritionPostTemplate } from '../templates/NutritionPost'
 
 CMS.registerMediaLibrary(uploadcare)
 
@@ -22,6 +24,7 @@ if (
 } else {
   CMS.registerPreviewStyle('/styles.css')
 }
+
 
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
@@ -40,4 +43,10 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('nutrition-page', ({ entry }) => (
+  <NutritionIndexTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('nutrition-posts', ({ entry }) => (
+  <NutritionPostTemplate {...entry.toJS().data} />
 ))

@@ -3,6 +3,12 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
+# when using the default proxy server port
+local_backend: true
+
+media_folder: static/img
+public_folder: /img
+
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_library:
   name: uploadcare
@@ -109,6 +115,44 @@ collections: # A list of collections the CMS should be able to edit
               default: BlogIndex,
             }
           - { label: Slug, name: slug, widget: hidden, default: 'blog' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+      - file: 'content/pages/nutrition.md'
+        label: 'Nutrition Page'
+        name: 'nutrition-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: NutritionIndex,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'nutrition' }
           - { label: Title, name: title, widget: string }
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown }
@@ -367,6 +411,51 @@ collections: # A list of collections the CMS should be able to edit
               required: false,
             }
           - { label: Noindex, name: noindex, widget: boolean, required: false }
+
+  - name: nutrition-posts
+    label: Nutrition post
+    editor:
+      preview: true
+    folder: content/nutrition-posts
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: Template, name: template, widget: hidden, default: NutritionPost }
+      - { label: Title, name: title, widget: string }
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ['Published', 'Featured', 'Draft']
+        default: 'Published'
+      - { label: Date / Order, name: date, widget: date }
+      - {
+          label: Featured Image,
+          name: featuredImage,
+          widget: image,
+          required: false,
+        }
+      - { label: Excerpt, name: excerpt, widget: text }
+      - { label: Content, name: body, widget: markdown }
+      - label: 'Meta'
+        required: false
+        name: 'meta'
+        widget: 'object'
+        fields:
+          - { label: Title, name: title, widget: string, required: false }
+          - {
+              label: Description,
+              name: description,
+              widget: text,
+              required: false,
+            }
+          - {
+              label: Canonical Link,
+              name: canonicalLink,
+              widget: string,
+              required: false,
+            }
+          - { label: Noindex, name: noindex, widget: boolean, required: false }
+  
 
   - name: 'settings'
     label: 'Settings'
