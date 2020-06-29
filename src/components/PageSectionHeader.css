@@ -1,0 +1,23 @@
+.PageSectionHeader {
+  background-color: #00c2bd;
+  color: #ffffff;
+  padding: 1rem 0;
+}
+
+
+.PageSectionHeader--Title {
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+
+.PageSectionHeader .container {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@media (max-width: 600px) {
+  .PageSectionHeader {
+    padding: 7rem 0;
+  }
+
+}

@@ -11,6 +11,7 @@ import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import { NutritionIndexTemplate } from '../templates/NutritionIndex'
 import { NutritionPostTemplate } from '../templates/NutritionPost'
+import { RecipePostTemplate } from '../templates/RecipePost'
 
 CMS.registerMediaLibrary(uploadcare)
 
@@ -49,4 +50,7 @@ CMS.registerPreviewTemplate('nutrition-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('nutrition-posts', ({ entry }) => (
   <NutritionPostTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('recipe-posts', ({ entry }) => (
+  <RecipePostTemplate {...entry.toJS().data} />
 ))

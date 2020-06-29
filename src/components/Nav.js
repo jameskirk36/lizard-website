@@ -83,7 +83,7 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div> */}
-            <NavLink to="/nutrition/">Nutrition &amp; recipes</NavLink>
+            <NavLink to="/nutrition/">Nutrition &amp; Recipes</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button

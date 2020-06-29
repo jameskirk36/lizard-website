@@ -1,9 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { Location } from '@reach/router'
-import qs from 'qs'
 
-import PageHeader from '../components/PageHeader'
+import PageSectionHeader from '../components/PageSectionHeader'
 import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
 
@@ -36,25 +35,34 @@ export const byCategory = (posts, title, contentType) => {
 // Export Template for use in CMS preview
 export const NutritionIndexTemplate = ({
   title,
-  subtitle,
-  featuredImage,
-  posts = []
+  nutritionPosts = [],
+  recipePosts = []
 }) => (
   <Location>
     {() => {
 
       return (
         <main className="Blog">
-          <PageHeader
-            title={title}
-            subtitle={subtitle}
-            backgroundImage={featuredImage}
+          <PageSectionHeader
+            title="Nutrition"
           />
 
-          {!!posts.length && (
+          {!!nutritionPosts.length && (
             <section className="section">
               <div className="container">
-                <PostSection posts={posts} />
+                <PostSection posts={nutritionPosts} />
+              </div>
+            </section>
+          )}
+
+          <PageSectionHeader
+            title="Recipes"
+          />
+          {!!recipePosts.length && (
+            <section className="section">
+              
+              <div className="container">
+                <PostSection posts={recipePosts} />
               </div>
             </section>
           )}
@@ -65,16 +73,21 @@ export const NutritionIndexTemplate = ({
 )
 
 // Export Default NutritionIndex for front-end
-const NutritionIndex = ({ data: { page, posts } }) => (
+const NutritionIndex = ({ data: { page, nutritionPosts, recipePosts } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
-    title={page.frontmatter.title || false}
+    title="Nutrition"
   >
     <NutritionIndexTemplate
       {...page}
       {...page.fields}
       {...page.frontmatter}
-      posts={posts.edges.map(post => ({
+      nutritionPosts={nutritionPosts.edges.map(post => ({
+        ...post.node,
+        ...post.node.frontmatter,
+        ...post.node.fields
+      }))}
+      recipePosts={recipePosts.edges.map(post => ({
         ...post.node,
         ...post.node.frontmatter,
         ...post.node.fields
@@ -97,16 +110,32 @@ export const pageQuery = graphql`
         contentType
       }
       frontmatter {
-        title
         excerpt
         template
-        subtitle
-        featuredImage
       }
     }
 
-    posts: allMarkdownRemark(
+    nutritionPosts: allMarkdownRemark(
       filter: { fields: { contentType: { eq: "nutrition-posts" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          excerpt
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date
+            featuredImage
+          }
+        }
+      }
+    }
+
+    recipePosts: allMarkdownRemark(
+      filter: { fields: { contentType: { eq: "recipe-posts" } } }
       sort: { order: DESC, fields: [frontmatter___date] }
     ) {
       edges {
