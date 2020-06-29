@@ -5,11 +5,12 @@ import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import Image from '../components/Image'
 import './SinglePost.css'
 
 export const NutritionPostTemplate = ({
   title,
-  date,
+  featuredImage,
   body
 }) => (
   <main>
@@ -18,29 +19,21 @@ export const NutritionPostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="container skinny">
+      <div className="container skinny PostCard2">
         <Link className="SinglePost--BackButton" to="/nutrition/">
           <ChevronLeft /> BACK
         </Link>
-        <div className="SinglePost--Content relative">
-          <div className="SinglePost--Meta">
-            {date && (
-              <time
-                className="SinglePost--Meta--Date"
-                itemProp="dateCreated pubdate datePublished"
-                date={date}
-              >
-                {date}
-              </time>
-            )}
+        {/* {featuredImage && (
+          <div className="PostCard--Image relative">
+            <Image background resolutions="medium" src={featuredImage} alt={title} />
           </div>
-
+        )} */}
+        <div className="SinglePost--Content relative">
           {title && (
             <h1 className="SinglePost--Title" itemProp="title">
               {title}
             </h1>
           )}
-
           <div className="SinglePost--InnerContent">
             <Content source={body} />
           </div>
@@ -82,7 +75,7 @@ export const pageQuery = graphql`
         title
         template
         subtitle
-        date(formatString: "MMMM Do, YYYY")
+        featuredImage
       }
     }
   }
