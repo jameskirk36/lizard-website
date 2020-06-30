@@ -5,6 +5,7 @@ import { Location } from '@reach/router'
 import PageSectionHeader from '../components/PageSectionHeader'
 import PostSection from '../components/PostSection'
 import Layout from '../components/Layout'
+import styles from './NutritionIndex.css'
 
 /**
  * Filter posts by date. Feature dates will be fitered
@@ -54,6 +55,11 @@ export const NutritionIndexTemplate = ({
               </div>
             </section>
           )}
+          {nutritionPosts.length == 0 && (
+            <div className="container">
+              <p className="empty">Nothing here at the moment.  Check back again soon.</p>
+            </div>
+          )}
 
           <PageSectionHeader
             title="Recipes"
@@ -66,6 +72,13 @@ export const NutritionIndexTemplate = ({
               </div>
             </section>
           )}
+
+          {recipePosts.length == 0 && (
+            <div className="container">
+              <p className="empty">Nothing here at the moment.  Check back again soon.</p>
+            </div>
+          )}
+
         </main>
       )
     }}
@@ -121,7 +134,6 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
@@ -129,6 +141,7 @@ export const pageQuery = graphql`
             title
             date
             featuredImage
+            excerpt
           }
         }
       }
@@ -140,7 +153,6 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt
           fields {
             slug
           }
@@ -148,6 +160,7 @@ export const pageQuery = graphql`
             title
             date
             featuredImage
+            excerpt
           }
         }
       }
