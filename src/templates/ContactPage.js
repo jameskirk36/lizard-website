@@ -36,6 +36,7 @@ export const ContactPageTemplate = ({
           <a href="https://www.facebook.com/lizkirkPT" class="fa fa-facebook"></a>
           <a href="https://www.instagram.com/lizkirk_pt/" class="fa fa-instagram"></a>
           <a href="https://www.linkedin.com/in/elizabeth-kirk-422b861a4" class="fa fa-linkedin"></a>
+          <a href="https://www.youtube.com/channel/UC-f1fW6So4gq8L3y5cYDaHQ" class="fa fa-youtube-play"></a>
           <EnquiryForm/>
           <div className="Contact--Details">
             {address && (
