@@ -4,10 +4,9 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # when using the default proxy server port
-local_backend: true
-
-media_folder: static/img
-public_folder: /img
+# local_backend: true
+# media_folder: static/img
+# public_folder: /img
 
 # display_url: https://gatsbro.netlify.com # This url will display in the top-right of the CMS
 media_library:
