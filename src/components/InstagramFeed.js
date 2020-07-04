@@ -43,11 +43,12 @@ export default class InstagramFeed extends Component {
       : false
 
     if (!instaFeed) {
+      let url = `https://graph.instagram.com/me/media?fields=media_url&access_token=${this.props.accessToken}`;
       typeof window !== 'undefined' &&
-        fetch(`https://instagramapi.thrivex.io/?ref=${this.props.accessToken}`)
+        fetch(url)
           .then(res => res.json())
-          .then(data => {
-            instaFeed = data && data.items ? data.items : []
+          .then(({data}) => {
+            instaFeed = [...data];
             localStorage.setItem('instaFeed', JSON.stringify(instaFeed))
             this.setState({
               posts: instaFeed
@@ -80,10 +81,7 @@ export default class InstagramFeed extends Component {
       <div className="InstagramFeed">
         {this.state.posts.slice(0, this.props.count).map(post => (
           <Post
-            key={post.code}
-            src={post.display_src}
-            code={post.code}
-            caption={post.caption}
+            src={post.media_url}
           />
         ))}
       </div>
@@ -91,10 +89,10 @@ export default class InstagramFeed extends Component {
   }
 }
 
-const Post = ({ src, code }) => (
+const Post = ({ src }) => (
   <a
     className="InstagramFeed--EmptyPost InstagramFeed--EmptyPost-loaded"
-    href={`https://instagram.com/p/${code}`}
+    href={src}
     rel="noopener noreferrer"
     target="_blank"
     aria-label="Instagram Post Link"
