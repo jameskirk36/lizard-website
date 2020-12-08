@@ -8,6 +8,7 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+import EnquireNow from '../components/EnquireNow'
 
 // Export Template for use in CMS preview
 export const ServicesPageTemplate = ({
@@ -30,6 +31,8 @@ export const ServicesPageTemplate = ({
       <div className="container">
         <Content source={section1} />
       </div>
+      <br></br>
+      <EnquireNow text="Enquire now" link="/contact"/>
     </section>
 
     <section className="section">
@@ -42,6 +45,8 @@ export const ServicesPageTemplate = ({
       <div className="container">
         <Content source={section2} />
       </div>
+      <br></br>
+      <EnquireNow text="Get in touch" link="/contact"/>
     </section>
 
     {/* <section className="BackgroundVideo-section section">

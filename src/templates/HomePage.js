@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import EnquireNow from '../components/EnquireNow'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -17,7 +18,9 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
 
     <section className="section">
       <div className="container">
+        <EnquireNow text="Enquire now" link="/contact"/>
         <Content source={body} />
+        <EnquireNow text="My services" link="/services"/>
       </div>
     </section>
   </main>
