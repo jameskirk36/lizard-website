@@ -55,6 +55,8 @@ gallery:
     alt: ..
   - image: https://ucarecdn.com/b53291cc-b0f7-4314-95cb-6f8e7d0f77a5/
     alt: ..
+  - image: https://ucarecdn.com/61a04dbf-b547-4cce-b4f6-58882bc1171c/
+    alt: ..
 meta:
   description: ""
   title: ""
