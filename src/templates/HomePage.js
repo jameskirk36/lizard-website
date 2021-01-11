@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import EnquireNow from '../components/EnquireNow'
+import './HomePage.css'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
@@ -15,10 +16,11 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
+    <div className="relative verticaladjust">
+      <EnquireNow text="Enquire now" link="/contact"/>
+    </div>
     <section className="section">
       <div className="container">
-        <EnquireNow text="Enquire now" link="/contact"/>
         <Content source={body} />
         <EnquireNow text="My services" link="/services"/>
       </div>
