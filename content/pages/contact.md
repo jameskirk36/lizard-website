@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: .
-featuredImage: https://ucarecdn.com/b1790d21-bd52-486c-92f4-fa3cd765ac66/
+featuredImage: https://ucarecdn.com/cf65b18e-88ea-428b-a413-e5c16357f0c4/
 subtitle: |-
   `
 
