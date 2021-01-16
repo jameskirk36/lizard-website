@@ -1,9 +1,10 @@
 ---
 template: HomePage
-slug: ''
-title: Liz Kirk Personal Training
-featuredImage: 'https://ucarecdn.com/3b709fba-a224-4283-af78-323b265b21ec/'
-subtitle: Become the best you can be.
+slug: ""
+title: Personal Trainer based in Kendal and South Cumbria
+featuredImage: https://ucarecdn.com/3b709fba-a224-4283-af78-323b265b21ec/
+subtitle: I am here to help you reach your goals - build strength, lose weight,
+  build confidence and push beyond your boundaries.
 meta:
   description: Liz Kirk Personal Training
   title: Liz Kirk Personal Training
