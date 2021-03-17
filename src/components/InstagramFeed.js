@@ -37,6 +37,10 @@ export default class InstagramFeed extends Component {
     }
   }
 
+  removeVideos(posts) {
+    return posts.filter(post => !post.media_url.includes("video"));
+  }
+
   fetchInstagram = () => {
     let instaFeed = localStorage.getItem('instaFeed')
       ? localStorage.getItem('instaFeed')
@@ -51,7 +55,7 @@ export default class InstagramFeed extends Component {
             instaFeed = [...data];
             localStorage.setItem('instaFeed', JSON.stringify(instaFeed))
             this.setState({
-              posts: instaFeed
+              posts: this.removeVideos(instaFeed)
             })
           })
           .catch(err => console.error(err))
@@ -80,7 +84,7 @@ export default class InstagramFeed extends Component {
     return (
       <div className="InstagramFeed">
         {this.state.posts.slice(0, this.props.count).map(post => (
-          <Post
+          <Post 
             src={post.media_url}
           />
         ))}
