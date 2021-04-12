@@ -18,15 +18,13 @@ section1: >-
   Packages and prices (each session is 1 hr) :
 
 
-  Block of 4 sessions   - £125
+  Block of 4 sessions   - £130
 
 
-  Block of 8 sessions   - £225
+  Block of 8 sessions   - £250
 
 
-  Block of 12 sessions - £320
-
-
+  Block of 12 sessions - £350
 
 
   My training packages include:
