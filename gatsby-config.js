@@ -50,6 +50,7 @@ module.exports = {
     // images
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-plugin-remove-serviceworker',
 
     {
       resolve: 'gatsby-transformer-remark',
