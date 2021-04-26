@@ -10,9 +10,17 @@
   color: white;
   display: inline-block;
   margin: 0 2rem 2rem;
+  top: 0px;
+  position: inherit;
 }
 
 .enquire-now:hover {
   background-color: rgba(0, 194, 189, 0.75);
 }
- 
+
+@media only screen and (max-width: 600px) {
+  .enquire-now {
+    top: 150px;
+    position: relative;
+  }
+}

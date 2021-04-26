@@ -30,6 +30,13 @@
 .PageHeader .container {
   animation: fadeIn 0.5s ease-out;
 }
+.BackgroundImage {
+  display: inherit;
+}
+
+.MobileImage {
+  display: none;
+}
 
 @media (max-width: 600px) {
   .PageHeader {
@@ -38,4 +45,17 @@
   .PageHeader-large {
     padding: 12.5rem 0;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .MobileImage {
+    display: inherit;
+    width: 400px;
+  }
+  
+  .BackgroundImage {
+    display: none;
+  }
+  
 }
