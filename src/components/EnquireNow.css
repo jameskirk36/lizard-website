@@ -10,8 +10,6 @@
   color: white;
   display: inline-block;
   margin: 0 2rem 2rem;
-  top: 0px;
-  position: inherit;
 }
 
 .enquire-now:hover {
@@ -19,7 +17,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .enquire-now {
+  .moveadjust {
     top: 150px;
     position: relative;
   }

@@ -16,7 +16,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       backgroundImage={featuredImage}
     />
     <div className="relative verticaladjust">
-      <EnquireNow text="Enquire now" link="/contact"/>
+      <EnquireNow text="Enquire now" link="/contact" moveadjust={true}/>
     </div>
     <section className="section">
       <div className="container">

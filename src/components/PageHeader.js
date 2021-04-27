@@ -17,7 +17,7 @@ const PageHeader = ({
   return (
     <div className={`PageHeader relative ${className}`}>
       {backgroundImage && (
-        <div>
+        <div className='PageHeaderImages'>
           <Image
             background
             resolutions="large"
