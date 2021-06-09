@@ -12,23 +12,12 @@ section1: >-
   I offer a FREE initial consultation either face to face or telephone/Zoom call to discuss your goals.
 
 
-  BOOK/ENQUIRE NOW BUTTON GOES HERE
-
-
-  Packages and prices (each session is 1 hr) :
-
-
-  Block of 4 sessions   - £130
-
-
-  Block of 8 sessions   - £250
-
-
-  Block of 12 sessions - £350
 
 
   My training packages include:
 
+
+  * One to one or small group personal training sessions
 
   * Lifestyle analysis and goal setting
 
