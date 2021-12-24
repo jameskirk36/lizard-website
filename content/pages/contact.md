@@ -11,8 +11,8 @@ phone: "07540104433"
 email: example@example.com
 locations:
   - mapLink: ""
-    lat: "54.3200945"
-    lng: "-2.7464892"
+    lat: "54.3199602"
+    lng: "-2.7441505"
 meta:
   description: This is a meta description.
   title: Contact Page
