@@ -6,6 +6,12 @@ if (typeof window !== 'undefined') {
   link.href = '/admin/admin.css'
   document.head.appendChild(link)
 
+  // open streeetmap styles in preview mode
+  const leaflet = document.createElement('link')
+  leaflet.rel = 'stylesheet'
+  leaflet.href = 'https://unpkg.com/leaflet@1.5.1/dist/leaflet.css'
+  document.head.appendChild(leaflet)
+
   if (process.env.NETLIFY_SITE_URL) {
     window.localStorage.setItem('netlifySiteURL', process.env.NETLIFY_SITE_URL)
   }
