@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact Me
-featuredImage: https://ucarecdn.com/a44e4f2a-181d-4946-a792-c1dcb0d56d96/
+featuredImage: https://ucarecdn.com/58b06040-e733-4dc6-b2a9-7a585790064d/
 subtitle: |-
   See below for different ways to get in touch
   ![]()
